@@ -1,0 +1,526 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/* Home page */
+.homepackBackground{
+  background-image: url("https://images.pexels.com/photos/2043739/pexels-photo-2043739.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  padding: 8% 10%;
+
+}
+
+/* my image */
+.meImageContainer{
+  width: 30%;
+
+}
+
+.myImage{
+  border-radius: 100%;
+  margin: 10% 115%;
+}
+
+#welcomePageNavbar{
+  display: flex;
+  flex-direction: column;
+  /* padding: 2%; */
+}
+
+.nameTitle{
+  text-align: center;
+  margin: auto;
+  color: white;
+  font-weight: bolder;
+  font-size: 300%;
+}
+
+.navbarText{
+  font-size: 150%;
+  font-weight: bolder;
+  color: black;
+}
+
+.navbarText:link {
+  text-decoration: none;
+}
+
+.navbarText:visited {
+  text-decoration: none;
+}
+
+li{
+  padding: 10px;
+}
+
+.navbar{
+  display: flex;
+  flex-direction: row;
+
+}
+
+
+/* About Me page */
+.myStoryText{
+  text-align: center;
+  margin: 1% 0%;
+}
+
+/* Me layout */
+.aboutMeContainer{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color:darkcyan;
+}
+
+.meContent{
+  width: 60%;
+}
+
+.aboutMeContent{
+  width: 40%;
+  text-align: center;
+  margin: 0% 8%;
+}
+
+.aboutMePara{
+  margin: 7% 0%;
+  font-size: larger;
+}
+
+.aboutMeImage{
+  display: flex;
+  align-items: center;
+  width: 50%;
+  height: 74%;
+  margin-top: 5%;
+  margin-left: 15%;
+  border: 1px solid black;
+}
+
+/* Work layout */
+.workContainer{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color: antiquewhite
+}
+
+.workContent{
+  width: 40%;
+  text-align: center;
+  margin: 0% 3%;
+}
+
+.experiencePara{
+  margin: 7% 0%;
+  font-size: larger;
+}
+
+.workImage{
+  display: flex;
+  align-items: center;
+  width: 65%;
+  height: 65%;
+  margin: 7% 40%;
+  border: 1px solid black;
+}
+
+/* Education layout */
+
+.educationContainer{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color:gainsboro;
+}
+
+.educationContent{
+  width: 40%;
+  text-align: center;
+  margin: 0% 8%;
+}
+
+.educationPara{
+  margin: 7% 0%;
+  font-size: larger;
+}
+
+.educationImage{
+  display: flex;
+  align-items: center;
+  width: 65%;
+  height: 65%;
+  margin: 10% 20%;
+  border: 1px solid black;
+}
+
+
+/* Profile Page */
+.profilePage{
+  width: 100%;
+
+}
+.firstGrid{
+  display: flex;
+  flex-direction: row; 
+  background-color:white;
+  padding-bottom: 2%;
+  background-color: teal;
+}
+.explanationGrid{
+  padding: 2%;
+  width: 60%;
+}
+
+.explanation1{
+  color:black;
+  text-align: center;
+  padding-left: 14%;
+}
+
+.explanation2{
+  color:black;
+  text-align: center;
+  padding-left: 28%;
+}
+.explanation3{
+  color:black;
+  text-align: center;
+  padding-left: 28%;
+}
+.explanation4{
+  color:black;
+  text-align: center;
+  padding-left: 49%;
+}
+/* Horizon */
+.horizonContainer{
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  margin: 2% 9%; 
+}
+
+.horizonImage{
+  width: 71%;
+  height: 92%;
+  border-radius: 5%;
+
+}
+
+.horizonText{
+  margin-top: 5px;
+  margin-left: 94px;
+  text-decoration: none;
+  color: black;
+
+}
+
+.horizonGithubImage{
+  width: 12%;
+  margin-left: 8%;
+}
+
+/* cssSnippit */
+.cssSnippetContainer{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 2% 0%;
+}
+
+.CSSSnippetImage{
+  width: 64%;
+  height: 92%;
+  border-radius: 5%;
+}
+
+.CSSSnippetText{
+  margin-top: 5px;
+  margin-left: 60px;
+}
+.cssSnippetGithubImage{
+  width: 10%;
+  margin-left: 18%;
+}
+
+/* PasswordGenerated */
+.PasswordGeneratedContainer{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 2% 2%;
+}
+
+.PasswordGeneratedImage{
+  width: 64%;
+  height: 92%;
+  border-radius: 5%;
+}
+
+.PasswordGeneratedText{
+  margin-top: 5px;
+  margin-left: 18px;
+}
+
+.PasswordGeneratedGithubImage{
+  width: 9%;
+  margin-left: 26%;
+}
+
+.secondGrid{
+  display: flex;
+  flex-direction: row; 
+  padding-bottom: 2%;
+  padding-left: 5%;
+  background-color: antiquewhite
+}
+
+/* TestYourKnowledge */
+.TestYourKnowledgeContainer{
+  width: 82%;
+  display: flex;
+  flex-direction: column;
+  margin: 2% 2%;
+}
+
+.TestYourKnowledgeImage{
+  width: 86%;
+  height: 74%;
+  border-radius: 5%;
+}
+
+.TestYourKnowledgeText{
+  margin-top: 5px;
+  margin-left: 76px;
+}
+
+.TestYourKnowledgeGithubImage{
+  width: 12%;
+  margin-left: 21%;
+}
+
+.SaveTheTaskGithubImage{
+  width: 12%;
+  margin-left: 8%;
+}
+
+.WeatherGithubImage{
+  width: 12%;
+  margin-left: 15%;
+}
+/* SaveTheTask */
+.SaveTheTaskContainer{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 2% 2%;
+}
+
+.SaveTheTaskImage{
+  width: 73%;
+  height: 67%;
+  border-radius: 5%;
+}
+
+.SaveTheTaskText{
+  margin-top: 5px;
+  margin-left: 120px;
+}
+
+/* Whats the Weather */
+.WeatherContainer{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 2% 2%;
+}
+
+.WeatherImage{
+  width: 70%;
+  height: 46%;
+  border-radius: 5%;
+}
+
+.WeatherText{
+  margin-top: 5px;
+  margin-left: 92px;
+}
+
+.thirdGrid{
+  display: flex;
+  flex-direction: row; 
+  background-color:gainsboro;
+  padding-bottom: 2%;
+  padding-left: 4%;
+
+}
+
+/* ReadMe Generator */
+.ReadMeGeneratorContainer{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 2% 2%;
+}
+
+.ReadMeGeneratorImage{
+  width: 80%;
+  height: 43%;
+  border-radius: 5%;
+}
+
+.ReadMeGeneratorText{
+  margin-top: 5px;
+  margin-left: 91px;
+}
+
+.ReadMeGeneratorGithubImage{
+  width: 12%;
+  margin-left: 18%;
+}
+
+/* Team Generator */
+.TeamGeneratorContainer{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 2% 2%;
+}
+
+.TeamGeneratorImage{
+  width: 96%;
+  height: 74%;
+  border-radius: 5%;
+}
+
+.TeamGeneratorText{
+  margin-top: 5px;
+  margin-left: 69px;
+}
+
+.TeamGeneratorGithubImage{
+  width: 12%;
+  margin-left: 33%;
+}
+/* Note Taker */
+.noteTakerContainer{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 2% 2%;
+}
+
+.noteTakerImage{
+  width: 69%;
+  height: 36%;
+  border-radius: 5%;
+}
+
+.noteTakerText{
+  margin-top: 5px;
+  margin-left: 131px;
+}
+
+.noteTakerGithubImage{
+  width: 12%;
+  margin-left: 8%;
+}
+
+/* Contact Me Page */
+.contactPage{
+  background-color: darkcyan;
+  padding: 4%;
+  margin: 0%;
+}
+
+.contactForm{
+  margin: 0% 20%;
+  background-color: darkcyan;
+  font-size: larger;
+}
+.nameRow{
+  text-align: left;
+  padding: 2%;
+}
+
+.inputName{
+  margin-left: 8%;
+  padding: 1% 10%;
+  font-size: larger;
+  
+}
+.emailRow{
+  text-align: left;
+  padding: 2%;
+}
+.inputEmail{
+  margin-left: 2.5%;
+  padding: 1% 20%;
+  font-size: larger;
+}
+.messageRow{
+  text-align: left;
+  padding: 2%;
+}
+.inputMessage{
+  margin-left: 6%;
+  padding: 1% 10%;
+  font-size: larger;
+}
+.submit{
+  padding: 1% 10%;
+  margin: 4% 40%;
+}
+
+.titleText{
+  text-decoration: brown;
+}
+/* resumePage */
+
+.resumePage{
+  background-color: darkcyan;
+  padding-left: 2%;
+  padding-top: 2%;
+  display: flex;
+}
+
+.resumePDF{
+  padding-left: 4%;
+}
+
+.resumetext{
+  color: white;
+  font-size: larger;
+}
+
+.frontEndText{
+  padding-left: 4%;
+  line-height: initial;
+}
+
+.backEndText{
+  padding-left: 4%;
+  line-height: initial;
+}
+
+li{
+  font-size: larger;
+}
+
+.footerContainer{
+  text-align: center;
+  font-size: larger;
+  background-color: beige;
+
+}
+
