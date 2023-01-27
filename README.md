@@ -37,8 +37,7 @@
 
 ## Deployed Link
 
-https://rimadas9878.github.io/Rima-About-Me/
 
 ## GitHub Link
 
-https://github.com/rimadas9878/Rima-About-Me
+https://github.com/rimadas9878/Portfolio
