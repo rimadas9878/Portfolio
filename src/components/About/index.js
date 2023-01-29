@@ -1,77 +1,48 @@
-import React, { Component } from "react";
+import React from "react";
+import { FaUniversity } from "react-icons/fa";
+import { FaMouse } from "react-icons/fa";
+import { FaHiking } from "react-icons/fa";
 
-export default function AboutMe() {
+export default function About() {
     return (
-        <div class="container mx-auto ">
-            <div class="meWorkStudyContainer">
-                <div class='aboutMeContainer'>
-                    <div class='aboutMeContent'>
-                        <p class='aboutMePara'>
-                            Experienced working in IT industry for more than 6 years, currently a Quality Analyst and an aspiring Web-developer
-                        </p>
-                        <p class='aboutMePara'>
-                            Defined as an adaptable, ambitious, self-motivated, and confident individual
-                        </p>
-                        <p class='aboutMePara'>
-                            My hobbies are travelling, reading, photographing, gardening and learning new things
-                        </p>
-                    </div>
+        <div class="aboutMePage">
+            <div class="aboutMeContiner">
+                <div class="aboutMeIconContainer">
+                    <FaUniversity class="aboutMeIcon" />
+                    <FaMouse class="aboutMeIcon" />
+                    <FaHiking class="aboutMeIcon" />
+                </div>
+                <div class="paraContainer">
+                    <p class="aboutMeText">Completed <span class="bold">Full Stack Development</span> coding boot camp from Berkeley University in 2023
+                        and have developed a strong set of technical skills in various programming languages
+                        and technologies including <span class="bold">JavaScript ES6+, CSS, HTML, SQL, GitHub, MongoDB, MySQL, Express,
+                            React, Node, jQuery, and Bootstrap.</span>
+                    </p>
                 </div>
 
-                <div class='workContainer'>
-                    <div class='workContent'>
-                        <p class='experiencePara'>
-                            I joined Varite, Inc in the year 2020 and currently,
-                            I am working on a Salesforce Project as a Quality Engineer.
-                            I am responsible for testing the Salesforce App
-                        </p>
-                        <p class='experiencePara'>
-                            Prior to Salesforce, I was working for Rave Technologies,
-                            India where I was responsible for testing the Uk government
-                            base website manually and also selecting test cases that can be
-                            automated using selenium with java
-                        </p>
-                        <p class='experiencePara'>
-                            Prior to Rave Technologies, I gained experience working in an insurance
-                            domain testing web-based as well as device-based applications
-                        </p>
-                    </div>
-                    <div class='workImageContainer'>
-                        <img
-                            class='workImage'
-                            src={`https://cdn.pixabay.com/photo/2015/02/02/11/09/office-620822__480.jpg`}
-                        />
-                    </div>
+                <div class="paraContainer">
+                    <p class="aboutMeText">Currently working with Varite, Inc as a <span class="bold">Quality Engineer</span> on a Salesforce Project.
+                        With my experience and knowledge of quality assurance and testing, I ensure that the Salesforce project is of
+                        high quality and meets the needs of the end users.
+                        My skill helps in identifying and addressing any issues, bugs, or defects in the system,
+                        ensuring that the project is delivered on time and within budget.
+                    </p>
                 </div>
-
-                <div class='educationContainer'>
-                    <div class='educationImageContainer'>
-                        <img
-                            class='educationImage'
-                            src={`https://www.timeshighereducation.com/sites/default/files/mortar-board-degree-certificate-books.jpg`}
-                        />
-                    </div>
-                    <div class='educationContent'>
-                        <p class='educationPara'>
-                            After earning my Full-Stack Development Bootcamp certification
-                            I will be looking to enter into the frontend Development world to
-                            explore my passion to create beautiful and performant products with
-                            delightful user experiences
-                        </p>
-                        <p class='educationPara'>
-                            Graduated from the University in India in Statistics and gained certification
-                            from a reputed institute in Computer Science
-                        </p>
-                        <p class='educationPara'>
-                            Always keep on educating myself from the various platform
-                        </p>
-                    </div>
+                <div class="paraContainer">
+                    <p class="aboutMeText">I am adaptable means that I can adjust to new situations, tasks, or environments quickly and effectively,
+                        also have a strong desire to achieve goals and succeed.
+                    </p>
+                </div>
+                <div class="paraContainer">
+                    <p class="aboutMeText">I like to <span class="bold">Travel, Read, Do Photography and Gardening.</span>
+                        Traveling allows me to explore new places, meet new people, and experience different cultures.
+                        Reading helps me to expand my knowledge and improve my communication skills,
+                        Photography helps me to capture memories and express my creative side.
+                        Gardening helps me to connect with nature and create beautiful outdoor spaces.
+                    </p>
                 </div>
             </div>
         </div>
-
-
-
     )
 }
 

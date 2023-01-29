@@ -3,6 +3,7 @@
   ## Table of Contents
   * [Description](#description)
   * [Installation](#installation)
+  * [Packages](#packages)
   * [Start](#start)
   * [Steps to deploy](#Steps-to-deploy)
   * [Deployed Link](#deployed-link)
@@ -18,7 +19,11 @@
   ```md
     npx create-react-app RIMA-ABOUT-ME
  ```
-  
+  ## Packages
+  NavBar
+  npm install -S react-router-dom
+  npm install react-bootstrap bootstrap
+
   ## Start
   To start the application
 

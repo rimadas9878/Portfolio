@@ -1,32 +1,29 @@
 import React, { useState } from 'react';
-import HomePage from '../HomePage';
+
+import Home from '../Home';
 import NavTabs from '../NavTabs';
-import AboutMe from '../About';
+import About from '../About';
 import Portfolio from '../Portfolio';
-import ContactMe from '../Contact';
+import Contact from '../Contact';
 import Resume from '../Resume';
 import FooterIcons from '../Footer';
 
 
-export default function PortfolioContainer() {
-    const [currentPage, setCurrentPage] = useState('HomePage');
-
-    const homepage = () => {
-        if(currentPage === 'HomePage') {
-            return <HomePage/>       
-        }
-    }
-
+export default function PageContainer() {
+    const [currentPage, setCurrentPage] = useState('Home');
+    
     const renderPage = () => {
-
-        if (currentPage === 'AboutMe') {
-            return <AboutMe />
+        if (currentPage === 'Home') {
+            return <Home />;
+          }
+        if (currentPage === 'About') {
+            return <About />
         }
-        if (currentPage === 'Profile') {
+        if (currentPage === 'Portfolio') {
             return <Portfolio />;
         }
-        if (currentPage === 'ContactMe') {
-            return <ContactMe />
+        if (currentPage === 'Contact') {
+            return <Contact />
         }
         if (currentPage === 'Resume') {
             return <Resume />
@@ -34,7 +31,7 @@ export default function PortfolioContainer() {
     };
 
     const footerOnPage = () => {
-        if (currentPage === 'HomePage','AboutMe', 'Profile', 'ContactMe', 'Resume') {
+        if (currentPage === 'Home','About', 'Portfolio', 'Contact', 'Resume') {
             return <FooterIcons />
         }
     };
@@ -43,11 +40,8 @@ export default function PortfolioContainer() {
 
     return (
         <div>
-            {homepage()}
-            {/* Passing the currentPage from state and the function to update it */}
             <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
 
-            {/* Calling the renderPage method  */}
             {renderPage()}
 
             {footerOnPage()}
