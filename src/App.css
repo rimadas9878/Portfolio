@@ -275,37 +275,29 @@ color: antiquewhite;
 }
 
 /* resumePage */
-
 .resumePage{
-  background-color: darkcyan;
-  padding-left: 2%;
-  padding-top: 2%;
-  display: flex;
+  padding: 1%;
 }
 
-.resumePDF{
-  padding-left: 4%;
+.resumeContainer{
+  border: 1px solid black;
+  margin: 1% 30%;
+  text-align: center;
 }
 
-.resumetext{
-  color: white;
-  font-size: larger;
+.resumePageFont{
+  font-size: 150%;
 }
 
-.frontEndText{
-  padding-left: 4%;
-  line-height: initial;
+.proficienciesContainer{
+  margin: 1% 35%;
+  text-align: center;
 }
 
-.backEndText{
-  padding-left: 4%;
-  line-height: initial;
+th{
+  font-size: 200%;
 }
-
-li{
-  font-size: larger;
-}
-
+/* Footer */
 .footerContainer{
   text-align: center;
   font-size: larger;
