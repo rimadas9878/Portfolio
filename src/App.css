@@ -152,7 +152,30 @@ color: antiquewhite;
   box-shadow: var(--shadow)
 }
 
+.EmployeeTrackerContainer{
+  margin: 2% 1.7%;
+  box-shadow: var(--shadow)
+}
 
+.GamethonContainer{
+  margin: 2% 1.7%;
+  box-shadow: var(--shadow)
+}
+
+.SocialNetworkAPIContainer{
+  margin: 2% 1.7%;
+  box-shadow: var(--shadow)
+}
+
+.TextEditorContainer{
+  margin: 2% 1.7%;
+  box-shadow: var(--shadow)
+}
+
+.RobinGoodFoodsContainer{
+  margin: 2% 1.7%;
+  box-shadow: var(--shadow)
+}
 
 /* Contact Me Page */
 .contactPage{

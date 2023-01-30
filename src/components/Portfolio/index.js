@@ -8,10 +8,11 @@ import SaveTheTask from '../../assets/Save_The_Task.png'
 import WhatsTheWeather from '../../assets/Weather_Image.png'
 import ReadMeGenerator from '../../assets/ReadMeGenerator.gif'
 import TeamGenerator from '../../assets/Team-generator.png'
-// import ReadMeGenerator from '../../assets/ReadMeGenerator.gif'
-// import ReadMeGenerator from '../../assets/ReadMeGenerator.gif'
-// import ReadMeGenerator from '../../assets/ReadMeGenerator.gif'
-
+import EmployeeTracker from '../../assets/Employee_Tracker.gif'
+import Gamethon from '../../assets/Gamethon.jpeg'
+import SocialNetworkAPI from '../../assets/SocialNetworkAPI.gif'
+import TextEditor from '../../assets/TextEditor.gif'
+import RobinGoodFoods from '../../assets/robingoodfoods.png'
 
 function Portfolio() {
     return (
@@ -53,14 +54,14 @@ function Portfolio() {
                 </div>
 
                 <div class="CSSPortfolioContainer">
-                <Card style={{ width: '18rem' }}>
+                    <Card style={{ width: '18rem' }}>
                         <Card.Img variant="top" src={CSSPortfolio} />
                         <Card.Body>
                             <Card.Title><span class="assignmentTitle">CSS Portfolio</span></Card.Title>
                             <Card.Text>
-                            This webpage is a portfolio created using HTML and CSS which showcases my skills, abilities, and accomplishments. 
-                            Soft skills, such as communication, problem-solving, and teamwork, and
-                             Hard skills, such as technical expertise or proficiency in a specific software
+                                This webpage is a portfolio created using HTML and CSS which showcases my skills, abilities, and accomplishments.
+                                Soft skills, such as communication, problem-solving, and teamwork, and
+                                Hard skills, such as technical expertise or proficiency in a specific software
                             </Card.Text>
                         </Card.Body>
                         <Card.Body>
@@ -131,10 +132,10 @@ function Portfolio() {
                         <Card.Body>
                             <Card.Title><span class="assignmentTitle">Whats The Weather</span></Card.Title>
                             <Card.Text>
-                            What's The Weather uses utilizes web APIs and local storage.  
-                            With the OpenWeather API, the app can retrieve weather data for different cities in real time. 
-                            Additionally, using local storage, we stored data on the client side, allowing the app to remember the user's 
-                            preferences and settings even after the browser is closed.
+                                What's The Weather uses utilizes web APIs and local storage.
+                                With the OpenWeather API, the app can retrieve weather data for different cities in real time.
+                                Additionally, using local storage, we stored data on the client side, allowing the app to remember the user's
+                                preferences and settings even after the browser is closed.
                             </Card.Text>
                         </Card.Body>
                         <Card.Body>
@@ -150,13 +151,13 @@ function Portfolio() {
                         <Card.Body>
                             <Card.Title><span class="assignmentTitle">ReadMe Generator</span></Card.Title>
                             <Card.Text>
-                            ReadMe Generator is a command-line application that dynamically generates a professional README.md file from a user's input 
-                            using the Inquirer package. This include what the app is for, how to use the app, how to install it,
-                             how to report issues, and how to make contributions.
+                                ReadMe Generator is a command-line application that dynamically generates a professional README.md file from a user's input
+                                using the Inquirer package. This include what the app is for, how to use the app, how to install it,
+                                how to report issues, and how to make contributions.
                             </Card.Text>
                         </Card.Body>
                         <Card.Body>
-                            
+
                             <Card.Link href="https://github.com/rimadas9878/ReadMe-Generator" target="_blank">Github</Card.Link>
                         </Card.Body>
                     </Card>
@@ -168,8 +169,8 @@ function Portfolio() {
                         <Card.Body>
                             <Card.Title><span class="assignmentTitle">Team Generator</span></Card.Title>
                             <Card.Text>
-                            TEAM PROFILE GENERATOR is a Node.js command-line application that takes in information about employees
-                             on a software engineering team, then generates an HTML webpage that displays summaries for each person.
+                                TEAM PROFILE GENERATOR is a Node.js command-line application that takes in information about employees
+                                on a software engineering team, then generates an HTML webpage that displays summaries for each person.
                             </Card.Text>
                         </Card.Body>
                         <Card.Body>
@@ -179,19 +180,92 @@ function Portfolio() {
                     </Card>
                 </div>
 
-                <div class="EmployeeTracker">
+                <div class="EmployeeTrackerContainer">
+                    <Card style={{ width: '18rem' }}>
+                        <Card.Img variant="top" src={EmployeeTracker} />
+                        <Card.Body>
+                            <Card.Title><span class="assignmentTitle">Employee Tracker</span></Card.Title>
+                            <Card.Text>
+                                Content Management System (CMS), a software application that allows users to create, manage, and publish digital
+                                content without the need for specialized technical knowledge. It typically provides a user-friendly interface that
+                                allows non-technical users to easily add, edit, and delete content, such as text, images, and videos,
+                                and store it in a database.
+                            </Card.Text>
+                        </Card.Body>
+                        <Card.Body>
+                            <Card.Link href="https://github.com/rimadas9878/Employee-Tracker" target="_blank">Github</Card.Link>
+                        </Card.Body>
+                    </Card>
                 </div>
 
-                <div class="Gamethon">
+                <div class="GamethonContainer">
+                    <Card style={{ width: '18rem' }}>
+                        <Card.Img variant="top" src={Gamethon} />
+                        <Card.Body>
+                            <Card.Title><span class="assignmentTitle">Gamethon</span></Card.Title>
+                            <Card.Text>
+                                Gamethon was a group project created for gamers. This application uses Node.js and Express.js to create a RESTful API,
+                                Handlebars.js as the template engine, MySQL and the Sequelize ORM for the database, have GET and POST routes for
+                                retrieving and adding new data and deployed using Heroku.
+                            </Card.Text>
+                        </Card.Body>
+                        <Card.Body>
+                            <Card.Link href="https://github.com/rimadas9878/Gameathon" target="_blank">Github</Card.Link>
+                        </Card.Body>
+                    </Card>
                 </div>
 
-                <div class="SocialNetworkAPI">
+                <div class="SocialNetworkAPIContainer">
+                    <Card style={{ width: '18rem' }}>
+                        <Card.Img variant="top" src={SocialNetworkAPI} />
+                        <Card.Body>
+                            <Card.Title><span class="assignmentTitle">SocialNetworkAPI</span></Card.Title>
+                            <Card.Text>
+                                Build an API for a social network web application where users can share their thoughts, react to friend's
+                                thoughts, and create a friend list.
+                                We had to use MoongoDB for creating the database and Insomnia to display and add the data.
+                            </Card.Text>
+                        </Card.Body>
+                        <Card.Body>
+                            <Card.Link href="https://github.com/rimadas9878/Social-Network" target="_blank">Github</Card.Link>
+                        </Card.Body>
+                    </Card>
                 </div>
 
-                <div class="Text Editor">
+                <div class="TextEditorContainer">
+                    <Card style={{ width: '18rem' }}>
+                        <Card.Img variant="top" src={TextEditor} />
+                        <Card.Body>
+                            <Card.Title><span class="assignmentTitle">Text Editor</span></Card.Title>
+                            <Card.Text>
+                                Build a Progressive Web Application and uploaded it to Heroku.
+                                This application uses the Manifest file which declares that this app is installable,
+                                and uses src-sw that takes all the content and caches it so that when we are offline it
+                                serves the purpose, used Webpack that bundles all the files together, and also uses IndexedDB
+                                to store data we use indexedDB
+                            </Card.Text>
+                        </Card.Body>
+                        <Card.Body>
+                            <Card.Link href="https://arcane-reef-48618.herokuapp.com/" target="_blank">Website</Card.Link>
+                            <Card.Link href="https://github.com/rimadas9878/Text-Editor" target="_blank">Github</Card.Link>
+                        </Card.Body>
+                    </Card>
                 </div>
 
-                <div class="React Portfolio">
+                <div class="RobinGoodFoodsContainer">
+                <Card style={{ width: '18rem' }}>
+                        <Card.Img variant="top" src={RobinGoodFoods} />
+                        <Card.Body>
+                            <Card.Title><span class="assignmentTitle">RobinGoodFoods</span></Card.Title>
+                            <Card.Text>
+                            Created an e-commerce website for all breakfast lovers. The project was created on REACT and used Apollo-server, MongoDB, Express, node.js, and GraphQL, and for CSS we used Tailwind.
+                            </Card.Text>
+                        </Card.Body>
+                        <Card.Body>
+                            <Card.Link href="https://immense-woodland-28981.herokuapp.com/" target="_blank">Website</Card.Link>
+                            <Card.Link href="https://github.com/rimadas9878/RobinGoodFoods" target="_blank">Github</Card.Link>
+                        </Card.Body>
+                    </Card>
                 </div>
             </div>
         </div>
