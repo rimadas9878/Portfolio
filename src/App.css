@@ -16,7 +16,7 @@
 /* Home page */
 .homepackBackground{
   background-image: url("https://images.pexels.com/photos/2043739/pexels-photo-2043739.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
-  padding: 10% 10%;
+  padding: 4% 10%;
 
 }
 
@@ -61,6 +61,40 @@
 
 .navbarText{
 color: antiquewhite;
+  }
+
+  .personalContactInfo{ 
+    width: 100%;
+    margin: -1% 40%;
+
+  }
+  
+  .address{
+    display: flex;
+    flex-direction: inherit;
+    color: white;
+
+  }
+  .icon{
+    font-size: 220%;
+    margin: 0% 1%;
+  }
+  
+  .phoneNo{
+    display: flex;
+    flex-direction: inherit;
+    color: white;
+  }
+  
+  .emailAddress{
+    display: flex;
+    flex-direction: inherit;
+    color: white;
+  }
+
+  .personalDetailsFont{
+    color: white;
+    font-size: 200%;
   }
 
 /* About Me page */
@@ -179,53 +213,67 @@ color: antiquewhite;
 
 /* Contact Me Page */
 .contactPage{
-  background-color: darkcyan;
-  padding: 4%;
-  margin: 0%;
+  background-color: rgb(220, 213, 204);
 }
 
-.contactForm{
-  margin: 0% 20%;
-  background-color: darkcyan;
-  font-size: larger;
+.contactMeContainer{
+  width: 90%;
 }
+
+.connectMsgDiv{
+  padding: 3% 0%;
+  text-align: center;
+}
+
+.connectMsgText{
+  font-size: 175%;
+  font-style: italic;
+  text-decoration: underline;
+}
+.contactForm{
+  width: 100%;
+  padding: 0% 9%;
+  padding-bottom: 8%;
+  margin: 0% 31%;
+}
+
 .nameRow{
-  text-align: left;
-  padding: 2%;
+  padding-bottom: 2%;
 }
 
 .inputName{
-  margin-left: 8%;
-  padding: 1% 10%;
-  font-size: larger;
-  
-}
-.emailRow{
-  text-align: left;
-  padding: 2%;
-}
-.inputEmail{
-  margin-left: 2.5%;
-  padding: 1% 20%;
-  font-size: larger;
-}
-.messageRow{
-  text-align: left;
-  padding: 2%;
-}
-.inputMessage{
-  margin-left: 6%;
-  padding: 1% 10%;
-  font-size: larger;
-}
-.submit{
-  padding: 1% 10%;
-  margin: 4% 40%;
+  border: 1px solid black;
+  font-size:large;
+  padding: 1% 12%;
 }
 
-.titleText{
-  text-decoration: brown;
+.emailRow{
+  padding-bottom: 2%;
+
 }
+
+.inputEmail{
+  border: 1px solid black;
+  font-size: large;
+  padding: 1% 12%;
+}
+.messageRow{
+  padding-bottom: 2%;
+}
+
+.inputMessage{
+  border: 1px solid black;
+  font-size: large;
+  padding: 1% 11.7%;
+}
+
+.submit{
+  border: 1px solid black;
+  padding: 0.5% 4%;
+  font-size: large;
+  margin-left: 12%;
+}
+
 /* resumePage */
 
 .resumePage{
