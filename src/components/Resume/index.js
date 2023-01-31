@@ -9,7 +9,7 @@ export default function Resume() {
                 <p class="resumePageFont">This is Rima Das. I hope you're doing well!</p>
                 <p class="resumePageFont">I have attached my resume and cover letter below for your consideration.</p>
                 <div class="resumePDF">
-                    <a class="resumePageFont" href="https://drive.google.com/file/d/1jQlQoPEEFIDgk6mreo5KGmsAZymwqDED/view?usp=share_link">Resume</a> <br/><br/>
+                    <a class="resumePageFont" href="https://drive.google.com/file/d/1SeTaj-aFBVoALT7-B2Bc8-jEWGLVbGnr/view?usp=sharing">Resume</a> <br/><br/>
                     <a class="resumePageFont" href="https://drive.google.com/file/d/10A4Z3zwdhlZbe1od9aAajn0Lccsdjx9D/view?usp=share_link">Cover Letter</a>
                 </div>
             </div>
