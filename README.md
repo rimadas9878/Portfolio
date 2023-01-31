@@ -33,6 +33,7 @@
 
  ## Steps to deploy 
 - Add "homepage": "https://rimadas.github.io/Rima-About-Me" to package.json
+  (Note:-This is https://username.github.io/reponame",)
 - Run the package "npm i gh-pages"
 - Add the below 2 packages to scripts
     - "predeploy": "npm run build",
