@@ -43,6 +43,7 @@
 
 ## Deployed Link
 
+https://rimadas9878.github.io/Portfolio
 
 ## GitHub Link
 
