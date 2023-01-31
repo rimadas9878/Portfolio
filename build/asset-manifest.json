@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.8ef4893e.css",
+    "main.js": "/Portfolio/static/js/main.ed50a0d9.js",
+    "static/media/CssPortfolio.gif": "/Portfolio/static/media/CssPortfolio.1199a940414e609ff8e1.gif",
+    "static/media/ReadMeGenerator.gif": "/Portfolio/static/media/ReadMeGenerator.9298c9a1df93ac92bb50.gif",
+    "static/media/Test-Your-Knowledge.gif": "/Portfolio/static/media/Test-Your-Knowledge.22e71d54cd5416cc9c42.gif",
+    "static/media/Horizon.png": "/Portfolio/static/media/Horizon.5894c17d8def8480953b.png",
+    "static/media/SocialNetworkAPI.gif": "/Portfolio/static/media/SocialNetworkAPI.99e976d4321374978a59.gif",
+    "static/media/TextEditor.gif": "/Portfolio/static/media/TextEditor.b42d095e85f9652e6d7d.gif",
+    "static/media/robingoodfoods.png": "/Portfolio/static/media/robingoodfoods.8d7992fd0f23c844a1ab.png",
+    "static/media/CSSSnippet.png": "/Portfolio/static/media/CSSSnippet.222698edba1c14c1ab2d.png",
+    "static/media/me.jpeg": "/Portfolio/static/media/me.769c709d6e466eda8da6.jpeg",
+    "static/media/Weather_Image.png": "/Portfolio/static/media/Weather_Image.cd1293221bb8db140e29.png",
+    "static/media/Save_The_Task.png": "/Portfolio/static/media/Save_The_Task.3f6d8dce0ed9e26c2671.png",
+    "static/media/Team-generator.png": "/Portfolio/static/media/Team-generator.906a839c31704591765b.png",
+    "static/media/Employee_Tracker.gif": "/Portfolio/static/media/Employee_Tracker.234f15bd40650d161018.gif",
+    "static/media/PasswordGenerator.png": "/Portfolio/static/media/PasswordGenerator.79c2721b5ef1277e2440.png",
+    "static/media/Gamethon.jpeg": "/Portfolio/static/media/Gamethon.24319b13fef15bbe5651.jpeg",
+    "index.html": "/Portfolio/index.html",
+    "main.8ef4893e.css.map": "/Portfolio/static/css/main.8ef4893e.css.map",
+    "main.ed50a0d9.js.map": "/Portfolio/static/js/main.ed50a0d9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8ef4893e.css",
+    "static/js/main.ed50a0d9.js"
+  ]
+}
