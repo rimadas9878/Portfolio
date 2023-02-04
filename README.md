@@ -9,6 +9,7 @@
   * [Deployed Link](#deployed-link)
   * [GitHub Link](#github-link)
   * [Portfolio Image](#portfolio-image)
+  * [Walkthrough Video](#walkthrough-video)
 
   ## Description
   Created a portfolio using React skills and deploy this application to GitHub Pages. 
@@ -57,3 +58,7 @@ https://github.com/rimadas9878/Portfolio
 ## Portfolio Image
 
 ![Portfolio Image](/src/assets/PortfolioImage.png)
+
+## Walkthrough Video
+
+![Walkthrough](/src/assets/Portfolio_walkthrough.gif)
